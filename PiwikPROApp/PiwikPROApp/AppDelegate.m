@@ -7,10 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import <PiwikPROSDK/PiwikPROSDK.h>
-
-static NSString *const PiwikTestServerURL = @"https://demoaccess.piwik.pro/";
-static NSString *const PiwikTestSiteID = @"3e7e6ab9-d605-42b0-ac1b-cdf5bb5e216f";
 
 @interface AppDelegate ()
 
@@ -21,13 +17,6 @@ static NSString *const PiwikTestSiteID = @"3e7e6ab9-d605-42b0-ac1b-cdf5bb5e216f"
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-
-    [PiwikTracker sharedInstanceWithSiteID:PiwikTestSiteID baseURL:[NSURL URLWithString:PiwikTestServerURL]];
-    //[PiwikTracker sharedInstance].debug = YES;
-    //[PiwikTracker sharedInstance].dispatchInterval = 10;
-    [PiwikTracker sharedInstance].maxAgeOfQueuedEvents = 60 * 60 * 24 * 7;
-    [[PiwikTracker sharedInstance] sendApplicationDownload];
-
     return YES;
 }
 
