@@ -155,13 +155,10 @@
 		1BF13B9D1F6FA4CE00171CA8 /* PiwikPROApp */ = {
 			isa = PBXGroup;
 			children = (
-				1BF13C2B1F6FC01400171CA8 /* Demo */,
 				1BF13BA11F6FA4CE00171CA8 /* AppDelegate.h */,
 				1BF13BA21F6FA4CE00171CA8 /* AppDelegate.m */,
-				1BF13BAD1F6FA4CE00171CA8 /* Assets.xcassets */,
-				1BF13BAF1F6FA4CE00171CA8 /* LaunchScreen.storyboard */,
-				1BF13BB21F6FA4CE00171CA8 /* Info.plist */,
-				1BF13BAA1F6FA4CE00171CA8 /* PiwikPRO.xcdatamodeld */,
+				1BF13C2B1F6FC01400171CA8 /* Screens */,
+				BAC886A320C5413600EDA9C3 /* Common */,
 				1BF13B9E1F6FA4CE00171CA8 /* Supporting Files */,
 			);
 			path = PiwikPROApp;
@@ -195,52 +192,223 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1BF13C2B1F6FC01400171CA8 /* Demo */ = {
+		1BF13C2B1F6FC01400171CA8 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				BAC8868F20C53CE600EDA9C3 /* CampaignViewController */,
+				BAC8869020C53CF500EDA9C3 /* ConfigurationViewController */,
+				BAC8869520C53D1A00EDA9C3 /* OutlinkViewController */,
+				BAC8869120C53CFD00EDA9C3 /* ContentTrackerViewController */,
+				BAC8869220C53D0500EDA9C3 /* CustomDimensionsViewController */,
+				BAC8869320C53D0C00EDA9C3 /* CustomVariablesViewController */,
+				BAC8869420C53D1300EDA9C3 /* DownloadViewController */,
+				BAC8869620C53D2100EDA9C3 /* CheckMembershipViewController */,
+				BAC8869720C53D2B00EDA9C3 /* DataManagerViewController */,
+				BAC8869820C53D3300EDA9C3 /* EcommerceViewController */,
+				BAC8869920C53D8300EDA9C3 /* EventsViewController */,
+				BAC8869A20C53D8B00EDA9C3 /* ExceptionViewController */,
+				BAC8869B20C53D9400EDA9C3 /* GoalsViewController */,
+				1BF13C441F6FC0F400171CA8 /* MainStoryboard.storyboard */,
+				BAC8869C20C53E1A00EDA9C3 /* MenuViewController */,
+				BAC8869D20C53E2200EDA9C3 /* OptOutViewController */,
+				BAC8869F20C53E3400EDA9C3 /* ScreenViewController */,
+				BAC886A020C53E4300EDA9C3 /* SearchViewController */,
+				BAC886A120C53E4A00EDA9C3 /* SocialViewController */,
+				BAC886A220C53E5100EDA9C3 /* UserIDViewController */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		BAC8868F20C53CE600EDA9C3 /* CampaignViewController */ = {
 			isa = PBXGroup;
 			children = (
 				1BF13C321F6FC0F400171CA8 /* CampaignViewController.h */,
 				1BF13C331F6FC0F400171CA8 /* CampaignViewController.m */,
+			);
+			path = CampaignViewController;
+			sourceTree = "<group>";
+		};
+		BAC8869020C53CF500EDA9C3 /* ConfigurationViewController */ = {
+			isa = PBXGroup;
+			children = (
 				1BF13C341F6FC0F400171CA8 /* ConfigurationViewController.h */,
-				1B22ECEA1F87696A003E95A2 /* OutlinkViewController.h */,
 				1BF13C351F6FC0F400171CA8 /* ConfigurationViewController.m */,
+			);
+			path = ConfigurationViewController;
+			sourceTree = "<group>";
+		};
+		BAC8869120C53CFD00EDA9C3 /* ContentTrackerViewController */ = {
+			isa = PBXGroup;
+			children = (
 				1BF13C361F6FC0F400171CA8 /* ContentTrackerViewController.h */,
 				1BF13C371F6FC0F400171CA8 /* ContentTrackerViewController.m */,
+			);
+			path = ContentTrackerViewController;
+			sourceTree = "<group>";
+		};
+		BAC8869220C53D0500EDA9C3 /* CustomDimensionsViewController */ = {
+			isa = PBXGroup;
+			children = (
 				1BEF9A701F76E424002FB30B /* CustomDimensionsViewController.h */,
 				1BEF9A711F76E424002FB30B /* CustomDimensionsViewController.m */,
+			);
+			path = CustomDimensionsViewController;
+			sourceTree = "<group>";
+		};
+		BAC8869320C53D0C00EDA9C3 /* CustomVariablesViewController */ = {
+			isa = PBXGroup;
+			children = (
 				1BF13C381F6FC0F400171CA8 /* CustomVariablesViewController.h */,
 				1BF13C391F6FC0F400171CA8 /* CustomVariablesViewController.m */,
+			);
+			path = CustomVariablesViewController;
+			sourceTree = "<group>";
+		};
+		BAC8869420C53D1300EDA9C3 /* DownloadViewController */ = {
+			isa = PBXGroup;
+			children = (
 				1BF13C3A1F6FC0F400171CA8 /* DownloadViewController.h */,
 				1BF13C3B1F6FC0F400171CA8 /* DownloadViewController.m */,
+			);
+			path = DownloadViewController;
+			sourceTree = "<group>";
+		};
+		BAC8869520C53D1A00EDA9C3 /* OutlinkViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1B22ECEA1F87696A003E95A2 /* OutlinkViewController.h */,
 				1B22ECEB1F87696A003E95A2 /* OutlinkViewController.m */,
+			);
+			path = OutlinkViewController;
+			sourceTree = "<group>";
+		};
+		BAC8869620C53D2100EDA9C3 /* CheckMembershipViewController */ = {
+			isa = PBXGroup;
+			children = (
 				1B1611A31F9F49B10039DE09 /* CheckMembershipViewController.h */,
 				1B1611A41F9F49B10039DE09 /* CheckMembershipViewController.m */,
+			);
+			path = CheckMembershipViewController;
+			sourceTree = "<group>";
+		};
+		BAC8869720C53D2B00EDA9C3 /* DataManagerViewController */ = {
+			isa = PBXGroup;
+			children = (
 				1B22ECED1F87BD41003E95A2 /* DataManagerViewController.h */,
 				1B22ECEE1F87BD41003E95A2 /* DataManagerViewController.m */,
+			);
+			path = DataManagerViewController;
+			sourceTree = "<group>";
+		};
+		BAC8869820C53D3300EDA9C3 /* EcommerceViewController */ = {
+			isa = PBXGroup;
+			children = (
 				1BF13C3C1F6FC0F400171CA8 /* EcommerceViewController.h */,
 				1BF13C3D1F6FC0F400171CA8 /* EcommerceViewController.m */,
+			);
+			path = EcommerceViewController;
+			sourceTree = "<group>";
+		};
+		BAC8869920C53D8300EDA9C3 /* EventsViewController */ = {
+			isa = PBXGroup;
+			children = (
 				1BF13C3E1F6FC0F400171CA8 /* EventsViewController.h */,
 				1BF13C3F1F6FC0F400171CA8 /* EventsViewController.m */,
+			);
+			path = EventsViewController;
+			sourceTree = "<group>";
+		};
+		BAC8869A20C53D8B00EDA9C3 /* ExceptionViewController */ = {
+			isa = PBXGroup;
+			children = (
 				1BF13C401F6FC0F400171CA8 /* ExceptionViewController.h */,
 				1BF13C411F6FC0F400171CA8 /* ExceptionViewController.m */,
+			);
+			path = ExceptionViewController;
+			sourceTree = "<group>";
+		};
+		BAC8869B20C53D9400EDA9C3 /* GoalsViewController */ = {
+			isa = PBXGroup;
+			children = (
 				1BF13C421F6FC0F400171CA8 /* GoalsViewController.h */,
 				1BF13C431F6FC0F400171CA8 /* GoalsViewController.m */,
-				1BF13C441F6FC0F400171CA8 /* MainStoryboard.storyboard */,
+			);
+			path = GoalsViewController;
+			sourceTree = "<group>";
+		};
+		BAC8869C20C53E1A00EDA9C3 /* MenuViewController */ = {
+			isa = PBXGroup;
+			children = (
 				1BF13C451F6FC0F400171CA8 /* MenuViewController.h */,
 				1BF13C461F6FC0F400171CA8 /* MenuViewController.m */,
+			);
+			path = MenuViewController;
+			sourceTree = "<group>";
+		};
+		BAC8869D20C53E2200EDA9C3 /* OptOutViewController */ = {
+			isa = PBXGroup;
+			children = (
 				1BF13C471F6FC0F400171CA8 /* OptOutViewController.h */,
 				1BF13C481F6FC0F400171CA8 /* OptOutViewController.m */,
+			);
+			path = OptOutViewController;
+			sourceTree = "<group>";
+		};
+		BAC8869E20C53E2C00EDA9C3 /* Screen2ViewController */ = {
+			isa = PBXGroup;
+			children = (
 				1BF13C491F6FC0F400171CA8 /* Screen2ViewController.h */,
 				1BF13C4A1F6FC0F400171CA8 /* Screen2ViewController.m */,
+			);
+			path = Screen2ViewController;
+			sourceTree = "<group>";
+		};
+		BAC8869F20C53E3400EDA9C3 /* ScreenViewController */ = {
+			isa = PBXGroup;
+			children = (
 				1BF13C4B1F6FC0F400171CA8 /* ScreenViewController.h */,
 				1BF13C4C1F6FC0F400171CA8 /* ScreenViewController.m */,
+				BAC8869E20C53E2C00EDA9C3 /* Screen2ViewController */,
+			);
+			path = ScreenViewController;
+			sourceTree = "<group>";
+		};
+		BAC886A020C53E4300EDA9C3 /* SearchViewController */ = {
+			isa = PBXGroup;
+			children = (
 				1BF13C4D1F6FC0F400171CA8 /* SearchViewController.h */,
 				1BF13C4E1F6FC0F500171CA8 /* SearchViewController.m */,
+			);
+			path = SearchViewController;
+			sourceTree = "<group>";
+		};
+		BAC886A120C53E4A00EDA9C3 /* SocialViewController */ = {
+			isa = PBXGroup;
+			children = (
 				1BF13C4F1F6FC0F500171CA8 /* SocialViewController.h */,
 				1BF13C501F6FC0F500171CA8 /* SocialViewController.m */,
+			);
+			path = SocialViewController;
+			sourceTree = "<group>";
+		};
+		BAC886A220C53E5100EDA9C3 /* UserIDViewController */ = {
+			isa = PBXGroup;
+			children = (
 				1BF13C511F6FC0F500171CA8 /* UserIDViewController.h */,
 				1BF13C521F6FC0F500171CA8 /* UserIDViewController.m */,
 			);
-			path = Demo;
+			path = UserIDViewController;
+			sourceTree = "<group>";
+		};
+		BAC886A320C5413600EDA9C3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1BF13BAD1F6FA4CE00171CA8 /* Assets.xcassets */,
+				1BF13BAF1F6FA4CE00171CA8 /* LaunchScreen.storyboard */,
+				1BF13BB21F6FA4CE00171CA8 /* Info.plist */,
+				1BF13BAA1F6FA4CE00171CA8 /* PiwikPRO.xcdatamodeld */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		DCBB957DA38D3AA42D8AFB15 /* Pods */ = {
@@ -304,7 +472,7 @@
 		1BF13B931F6FA4CE00171CA8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0930;
 				TargetAttributes = {
 					1BF13B9A1F6FA4CE00171CA8 = {
 						CreatedOnToolsVersion = 8.3;
@@ -530,6 +698,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -537,6 +706,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -585,6 +755,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -592,6 +763,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -628,7 +800,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 13;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = PiwikPROApp/Info.plist;
+				INFOPLIST_FILE = PiwikPROApp/Common/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.piwikpro.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -647,7 +819,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 13;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = PiwikPROApp/Info.plist;
+				INFOPLIST_FILE = PiwikPROApp/Common/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.piwikpro.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
